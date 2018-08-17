@@ -1,4 +1,4 @@
-package com.hyr.hbase.Table;
+package com.hyr.hbase.table;
 
 import com.hyr.hbase.Conf;
 import org.apache.hadoop.conf.Configuration;
