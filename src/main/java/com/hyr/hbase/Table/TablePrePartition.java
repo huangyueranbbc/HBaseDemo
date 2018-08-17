@@ -1,4 +1,4 @@
-package com.hyr.hbase.Table;
+package com.hyr.hbase.table;
 
 import com.hyr.hbase.Conf;
 import org.apache.hadoop.conf.Configuration;
@@ -39,6 +39,7 @@ public class TablePrePartition {
     @Before
     public void begin() throws IOException {
         Configuration conf = new Configuration();
+
         // 指定 Zookeeper集群
         conf.set("hbase.zookeeper.quorum", Conf.HOST);
 

@@ -1,11 +1,10 @@
-package com.hyr.hbase.Table;
+package com.hyr.hbase.table;
 
 import com.hyr.hbase.Conf;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.client.Admin;
 import org.apache.hadoop.hbase.client.Connection;
 import org.apache.hadoop.hbase.client.ConnectionFactory;
-import org.apache.hadoop.hbase.client.Table;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
