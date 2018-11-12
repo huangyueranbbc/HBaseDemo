@@ -7,7 +7,7 @@ package com.hyr.hbase;
  ******************************************************************************/
 public class Conf {
 
-    public  static String HOST="master";
+    public  static String HOST="192.168.0.1:33412";
 
     public  static String TEST_TABLE ="test_table";
     public  static String TEST_PRE_PARTITION_TABLE="test_pre_partition_table";
