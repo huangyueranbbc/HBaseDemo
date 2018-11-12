@@ -19,9 +19,6 @@ import org.apache.hadoop.hbase.regionserver.wal.WALEdit;
 import org.apache.hadoop.hbase.util.Bytes;
  
 /**
- * @author wozipa
- * @Date 2016-3-20 20:57
- * 创建两张一模一样的表
  */
 public class RegionObverserExample extends BaseRegionObserver{
 	
@@ -45,14 +42,11 @@ public class RegionObverserExample extends BaseRegionObserver{
 	
  
 	/**
-	 * @author wozipa
-	 * @Date 2016-3-20 21:02
 	 *  在插入数据之前将数据插入到指定的表格中
 	 */
 	@Override
 	public void prePut(ObserverContext<RegionCoprocessorEnvironment> e, Put put, WALEdit edit, Durability durability)
 			throws IOException {
-		// TODO Auto-generated method stub
 		Configuration conf=init();
 		try {
 			HBaseAdmin admin=new HBaseAdmin(conf);
@@ -78,7 +72,6 @@ public class RegionObverserExample extends BaseRegionObserver{
 			//
 			table.close();
 		} catch (Exception e1) {
-			// TODO: handle exception
 			e1.printStackTrace();
 		}
 	}

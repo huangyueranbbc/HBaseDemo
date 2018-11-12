@@ -12,6 +12,8 @@
 
 6.hbase mapreduce
 
+7.RegionObverser
+
 更新中......
 
 
