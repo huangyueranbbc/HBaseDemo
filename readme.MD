@@ -1,4 +1,6 @@
-**HBase Demo**
+# HBase Demo  
+  
+[![Travis](https://img.shields.io/badge/HBaseDemo-v1.0.0-green.svg)](https://github.com/huangyueranbbc/HBaseDemo)  [![Travis](https://img.shields.io/badge/Apache-HBase-orange.svg)](https://hbase.apache.org/)  
 
 1.HBaseAdmin
 
